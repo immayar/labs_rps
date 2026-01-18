@@ -1,0 +1,58 @@
+{
+  "database": "C:\\Users\\rusla\\Desktop\\Лаб3\\tests\\data\\integration.db",
+  "createdAt": "2025-12-09T17:56:25.142Z",
+  "insert": [
+    {
+      "size": 100,
+      "durationMs": 4.73,
+      "success": true
+    },
+    {
+      "size": 1000,
+      "durationMs": 26.62,
+      "success": true
+    },
+    {
+      "size": 10000,
+      "durationMs": 293.56,
+      "success": true
+    }
+  ],
+  "fetchSort": [
+    {
+      "size": 100,
+      "durationMs": 2.79,
+      "avgPerArrayMs": 0.0279,
+      "success": true
+    },
+    {
+      "size": 1000,
+      "durationMs": 2.49,
+      "avgPerArrayMs": 0.0249,
+      "success": true
+    },
+    {
+      "size": 10000,
+      "durationMs": 5.38,
+      "avgPerArrayMs": 0.0538,
+      "success": true
+    }
+  ],
+  "cleanup": [
+    {
+      "size": 100,
+      "durationMs": 0.52,
+      "success": true
+    },
+    {
+      "size": 1000,
+      "durationMs": 1.37,
+      "success": true
+    },
+    {
+      "size": 10000,
+      "durationMs": 13.13,
+      "success": true
+    }
+  ]
+}
